@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+main {
+    display:flex;
+    height: 100vh;
+}
+
+.Cont-img {
+    flex: 1 1 50%;
+    height: 100%;
+    background-image: url('../assets/img/Montañas.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.Cont {
+    flex:1 1 50%;
+    text-align: center;
+    height: 100vh;
+}
+
+.division-flex {
+}
+
+.form {
+    margin:auto;
+    margin-top: 2.6rem;
+}
+
+.form h2 {
+    margin: 1rem 0px;
+    color:#D59EA3;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.form label {
+    display:block;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+    width: 16rem;
+    padding: 5px 0;
+    margin-top: 5px;
+    outline: 1px solid #E0E0E0;
+    border: 1px solid #E0E0E0;
+}
+
+
+.form input[type="checkbox"] {
+    margin: 10px auto;
+    margin-bottom: 10px;
+    
+}
+
+.form input[type="button"] {
+    padding: 0.7rem 8rem;
+    background-color: #FF6F6E;
+    color:white;
+    font-family: 'Roboto';
+    border: none;
+}
+
+main div div form img {
+    width: 60px;
+}
