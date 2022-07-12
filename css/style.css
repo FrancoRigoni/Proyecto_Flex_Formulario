@@ -23,7 +23,6 @@ main {
 .Cont {
     flex:1 1 50%;
     text-align: center;
-    height: 100vh;
 }
 
 .division-flex {
@@ -32,7 +31,7 @@ main {
 }
 
 .form {
-    margin:1rem 0;
+    padding: 2rem 0;
 }
 
 .form h2 {
@@ -92,11 +91,6 @@ main {
 
     .Cont {
         display: flex;
-        align-items: center;
         justify-content: center;
-    }
-    
-    .Cont form{
-        margin: 1rem;
     }
 }
